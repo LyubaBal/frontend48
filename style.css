@@ -1,0 +1,66 @@
+header, main, footer, .header, .section, .aside, .footer, .fone, .ftwo, .ffree, .ffour, .sone, .stwo, .sfree, .sfour {
+    font-weight: 800;
+    font-size: x-large;
+    display: flex;
+}
+
+.header {
+    flex: 0 0 content;
+    justify-content: center;
+    background-color: rgb(227, 226, 226);
+    height: 80px;
+    align-items: center;
+}
+
+.section {
+    background-color: rgb(246, 255, 167);
+    width: 70%;
+    height: 500px; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.sone {
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    align-self: center;
+}
+
+.stwo, .sfree {
+    background-color: rgb(204, 210, 90); 
+    width: 500px;
+    height: 110px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sfour {
+    width: 1040px;
+    height: 110px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(204, 210, 90); 
+}
+
+.aside {
+    background-color: rgb(180, 236, 191);
+    width: 30%;
+    height: 500px;
+    justify-content: center;
+}
+
+.footer {
+    background-color: rgb(227, 226, 226); 
+    height: 141px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fone, .ftwo, .ffree, .ffour {
+    background-color: rgb(255, 255, 255); 
+    width: 350px;
+    height: 110px;
+    align-items: center;
+    justify-content: center;
+}
